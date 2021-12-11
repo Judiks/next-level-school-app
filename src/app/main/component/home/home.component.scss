@@ -1,0 +1,37 @@
+.main-info-row {
+    height: 20rem;
+    background-color: gray;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    align-content: center;
+}
+
+.lectors-row {
+    height: 20rem;
+}
+
+.carousel-caption {
+    position: relative;
+}
+
+.carousel-item {
+    height: 100%;
+    color: gray;
+    img {
+        height: 250px;
+        width: auto !important;
+    }
+}
+
+.embed-responsive-item {
+    width: 500px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .lectors-row {
+        height: 30rem;
+    }
+    
+}
