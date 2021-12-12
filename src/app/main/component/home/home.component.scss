@@ -5,6 +5,14 @@
     font-family: monospace;
     text-align: center;
     align-content: center;
+    div {
+        h1 {
+            font-size: xx-large;
+        }
+        h3 {
+            font-size: x-large;
+        }
+    }
 }
 
 .lectors-row {
@@ -18,10 +26,15 @@
 .carousel-item {
     height: 100%;
     color: gray;
+    cursor: pointer;
     img {
         height: 250px;
         width: auto !important;
     }
+}
+
+.carousel-item:hover {
+    transform: scale(1.05);
 }
 
 .embed-responsive-item {

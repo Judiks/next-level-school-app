@@ -1,0 +1,3 @@
+[submodule "dist/next-level-school"]
+	path = dist/next-level-school-app
+	url = https://github.com/Judiks/next-level-school-app-dist
